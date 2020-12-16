@@ -12,3 +12,24 @@
 .bg-white {
     background-color: #FFF;
 }
+
+.btnToTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    background-color: #da552f;
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px 0px rgb(218 85 47 / .7);
+    cursor: pointer;
+    transition: all ease .3s;
+}
+
+.btnToTop:hover {
+    box-shadow: 0px 0px 16px 0px rgb(218 85 47 / .7);
+}
