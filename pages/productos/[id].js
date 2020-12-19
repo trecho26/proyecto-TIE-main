@@ -65,6 +65,7 @@ const Producto = () => {
 
     // Administrar y validar los votos
     const votarProducto = () => {
+        
         if(!usuario) {
             return router.push('/login')
         }
